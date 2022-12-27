@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/healthz')
 def health():
-	return 'Service Running'
+	return 'Service Running Health Check Passed!'
 
 @app.route('/set', methods=["POST"])
 def insert_data():
