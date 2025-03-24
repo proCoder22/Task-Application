@@ -15,4 +15,8 @@
   "key" : <input>,
   "value": <input>
 }
+{
+  "key2": <input2>,
+  "value": <value2>
+}
 `
